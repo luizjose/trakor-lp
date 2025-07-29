@@ -6,9 +6,7 @@ const Header = () => {
     const navItems = ["Produto", "Solução", "Recursos", "Preços"];
     
     // Função para alternar o menu mobile
-    const toggleMenu = () => {
-        setMenuOpen(!menuOpen);
-    };
+   
  return (
     <header className="bg-[#0F172A] w-full text-white shadow-md">
       <div className="w-full  flex justify-between items-center  py-3">
