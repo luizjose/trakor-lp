@@ -11,7 +11,7 @@ const InteractiveCall = () => {
         </ScrollReveal>
 
       {/* Container da imagem com margem negativa pra "invadir" a parte preta */}
-      <div className="w-full -mb-[50vh] mt-0.5 md:mt-12">
+      <div className="w-full -mb-[45vh] md:-mb-[25vh] lg:-mb-[50vh] xl:-mb-[70vh] mt-0.5 md:mt-12">
         <ScrollReveal delay={0.4}>
           <img
             src="./team/Desktop.png"
@@ -22,7 +22,7 @@ const InteractiveCall = () => {
         </ScrollReveal>
       </div>
     </div>
-    <div className="h-[25vh] bg-[#0F172A] flex flex-col items-center ">
+    <div className="h-[15vh] md:h-[20vh] lg:h-[50vh] bg-[#0F172A] flex flex-col items-center ">
 
     </div>
     </>
