@@ -1,0 +1,22 @@
+@import "tailwindcss";
+@import "swiper/css";
+@import "swiper/css/navigation";
+@import "swiper/css/effect-coverflow";
+
+@theme {
+  --font-roboto: 'Roboto', sans-serif;
+}
+* {
+  box-sizing: border-box;
+  overflow-x: none !important;
+}
+body {
+  font-family: var(--font-roboto);
+  background-color: #0F172A;
+  color: #F8FAFC;
+  overflow-x: none !important;
+}
+#root {
+ overflow-x: none !important;
+}
+
