@@ -9,7 +9,7 @@ const ReinforcementPhrase = () => {
         </h2>
       </ScrollReveal>
       <ScrollReveal delay={0.4}>
-        <h2 className="text-[#818CF8] font-extrabold text-5xl tracking-tight">
+        <h2 className="text-[#818CF8] font-extrabold text-center text-5xl tracking-tight">
           Sempre conectados.
         </h2>
       </ScrollReveal>

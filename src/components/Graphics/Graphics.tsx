@@ -4,7 +4,7 @@ const Graphics = () => {
   return (
     <div className="bg-[#0F172A] pt-12 pl-12 pb-12  pr-0 rounded-[20px] gap-12 flex flex-col md:flex-row border border-[#475569]">
       {/* Coluna de texto */}
-      <div className="flex-1 gap-8 flex flex-col">
+      <div className="flex-1 gap-8 flex pr-1 flex-col">
         <ScrollReveal   delay={0.2}>
         <h3 className="text-2xl md:text-[32px] leading-8 font-bold ">
           Visualize o progresso. Transforme dados em ações estratégicas.
