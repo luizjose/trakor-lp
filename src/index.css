@@ -4,7 +4,7 @@
 @import "swiper/css/effect-coverflow";
 
 @theme {
-  --font-roboto: 'Roboto', sans-serif;
+  --font-roboto: "Roboto", sans-serif;
 }
 * {
   box-sizing: border-box;
@@ -12,11 +12,10 @@
 }
 body {
   font-family: var(--font-roboto);
-  background-color: #0F172A;
-  color: #F8FAFC;
+  background-color: #0f172a;
+  color: #f8fafc;
   overflow-x: none !important;
 }
 #root {
- overflow-x: none !important;
+  overflow-x: none !important;
 }
-

@@ -5,7 +5,7 @@ import InteractiveCall from "./components/InteractiveCall/InteractiveCall";
 import ReinforcementPhrase from "./components/ReinforcementPhrase/ReinforcementPhrase";
 import ToolsSession from "./components/ToolsSession/ToolsSession";
 import VisualHighlight from "./components/VisualHighliht/VisualHighlight";
-import TeamManagement from './components/TeamManagement/TeamManagement';
+import TeamManagement from "./components/TeamManagement/TeamManagement";
 import Graphics from "./components/Graphics/Graphics";
 import ControlTheFlow from "./components/ControlTheFlow/ControlTheFlow";
 import Testimonials from "./components/Testimonials/Testimonial";
@@ -30,7 +30,7 @@ function App() {
       </div>
       <ControlTheFlow />
       <Testimonials />
-      <CallToActions  />
+      <CallToActions />
       <footer className="mt-12">
         <Footer />
       </footer>

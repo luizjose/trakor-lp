@@ -189,33 +189,33 @@ const Footer = () => {
             </a>
             {/*botões playstore e applestore */}
             <div className="flex gap-4">
-            <a
-              href="https://play.google.com/store"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-3 bg-black text-white px-4 py-2 rounded-lg hover:opacity-80 transition border border-white"
-            >
-              <FaGooglePlay size={28} />
-              <div className="leading-tight text-left">
-                <span className="text-xs">Disponível no</span>
-                <br />
-                <span className="text-sm font-semibold">Google Play</span>
-              </div>
-            </a>
+              <a
+                href="https://play.google.com/store"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-3 bg-black text-white px-4 py-2 rounded-lg hover:opacity-80 transition border border-white"
+              >
+                <FaGooglePlay size={28} />
+                <div className="leading-tight text-left">
+                  <span className="text-xs">Disponível no</span>
+                  <br />
+                  <span className="text-sm font-semibold">Google Play</span>
+                </div>
+              </a>
 
-            <a
-              href="https://www.apple.com/app-store/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-3 bg-black text-white px-4 py-2 rounded-lg hover:opacity-80 transition border border-white"
-            >
-              <FaApple size={28} />
-              <div className="leading-tight text-left">
-                <span className="text-xs">Baixar na</span>
-                <br />
-                <span className="text-sm font-semibold">App Store</span>
-              </div>
-            </a>
+              <a
+                href="https://www.apple.com/app-store/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-3 bg-black text-white px-4 py-2 rounded-lg hover:opacity-80 transition border border-white"
+              >
+                <FaApple size={28} />
+                <div className="leading-tight text-left">
+                  <span className="text-xs">Baixar na</span>
+                  <br />
+                  <span className="text-sm font-semibold">App Store</span>
+                </div>
+              </a>
             </div>
           </div>
         </div>

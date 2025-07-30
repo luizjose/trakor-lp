@@ -2,11 +2,11 @@ import { useState } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
 
 const Header = () => {
-    const [menuOpen, setMenuOpen] = useState(false);
-    const navItems = ["Produto", "Solução", "Recursos", "Preços"];
-    
-    // Função para alternar o menu mobile
-   return (
+  const [menuOpen, setMenuOpen] = useState(false);
+  const navItems = ["Produto", "Solução", "Recursos", "Preços"];
+
+  // Função para alternar o menu mobile
+  return (
     <header className="bg-[#0F172A] w-full h-[85px] text-white shadow-md">
       <div className="w-full  flex justify-between items-center  py-3">
         {/* Logo */}
@@ -19,12 +19,10 @@ const Header = () => {
               {item}
             </a>
           ))}
-         
-          
         </nav>
         <button className=" hidden md:flex bg-gray-600 hover:bg-gray-700 px-6 py-1 rounded">
-            Solicitar Convite
-          </button>
+          Solicitar Convite
+        </button>
 
         {/* Botão Mobile */}
         <button
@@ -47,11 +45,10 @@ const Header = () => {
           <button className=" bg-gray-600 hover:bg-gray-700 px-6 py-1 rounded">
             Solicitar Convite
           </button>
-          
         </div>
       )}
     </header>
   );
-}
+};
 
 export default Header;

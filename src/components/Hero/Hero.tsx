@@ -6,9 +6,10 @@ const Hero = () => {
   const [ref, inView] = useInView({ threshold: 1, triggerOnce: true });
 
   return (
-    <div 
-    style={{ height: 'calc(90vh - 90px)' }}
-    className="bg-[#0F172A] flex flex-col items-center px-2 md:px-4 mt-16  md:mt-22">
+    <div
+      style={{ height: "calc(90vh - 90px)" }}
+      className="bg-[#0F172A] flex flex-col items-center px-2 md:px-4 mt-16  md:mt-22"
+    >
       <ScrollReveal delay={0.1}>
         <p className="text-[#818CF8] font-[500] text-[16px] text-center md:text-[18px] tracking-tight">
           Ferramenta de acompanhamento do progresso da equipe

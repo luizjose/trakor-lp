@@ -1,6 +1,5 @@
 import ScrollReveal from "../ScrollReveal/ScrollReveal";
 const ReinforcementPhrase = () => {
-
   return (
     <div className="bg-[#0F172A] flex flex-col items-center px-4 py-12 mt-20 gap-1">
       <ScrollReveal delay={0.2}>
@@ -19,7 +18,6 @@ const ReinforcementPhrase = () => {
           clara e eficiente.
         </p>
       </ScrollReveal>
-      
     </div>
   );
 };
