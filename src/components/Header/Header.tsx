@@ -6,9 +6,8 @@ const Header = () => {
     const navItems = ["Produto", "Solução", "Recursos", "Preços"];
     
     // Função para alternar o menu mobile
-   
- return (
-    <header className="bg-[#0F172A] w-full text-white shadow-md">
+   return (
+    <header className="bg-[#0F172A] w-full h-[85px] text-white shadow-md">
       <div className="w-full  flex justify-between items-center  py-3">
         {/* Logo */}
         <h1 className="text-[32px] font-bold">trakor</h1>

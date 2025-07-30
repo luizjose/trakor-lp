@@ -2,7 +2,7 @@ import ScrollReveal from "../ScrollReveal/ScrollReveal";
 
 const Companies = () => {
   return (
-    <div className="flex flex-col items-center   gap-8">
+    <div className="flex flex-col items-center mt-4 md:mt-0  gap-8">
         <ScrollReveal delay={0.2}>
       <h2 className="text-[#CBD5E1] text-center font-bold text-2xl">Confiado por equipes de empresas líderes</h2>
       </ScrollReveal>

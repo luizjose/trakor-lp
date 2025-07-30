@@ -7,22 +7,22 @@ const Hero = () => {
 
   return (
     <div 
-    style={{ height: 'calc(90vh - 85px)' }}
-    className="bg-[#0F172A] flex flex-col items-center px-2 md:px-4  mt-24">
+    style={{ height: 'calc(90vh - 90px)' }}
+    className="bg-[#0F172A] flex flex-col items-center px-2 md:px-4 mt-16  md:mt-22">
       <ScrollReveal delay={0.1}>
-        <p className="text-[#818CF8] font-[500] text-[18px] text-center md:text-[18px] tracking-tight">
+        <p className="text-[#818CF8] font-[500] text-[16px] text-center md:text-[18px] tracking-tight">
           Ferramenta de acompanhamento do progresso da equipe
         </p>
       </ScrollReveal>
 
       <ScrollReveal delay={0.3}>
-        <h2 className=" text-[52px] md:text-[62px] text-center font-extrabold leading-tight md:tracking-tight">
+        <h2 className=" text-[48px] md:text-[62px] text-center font-extrabold leading-12 md:leading-tight md:tracking-tight">
           Acompanhe o progresso da sua equipe
         </h2>
       </ScrollReveal>
 
       <ScrollReveal delay={0.5}>
-        <p className="text-[#CBD5E1] text-center  mt-4 mb-8 tracking-tight leading-5">
+        <p className="text-[#CBD5E1] text-center  mt-4 mb-6 md:mb-8 tracking-tight leading-5">
           10 processos. 1 fluxo de trabalho. Colabore em projetos e tarefas.
           Crie uma cultura de entrega com visibilidade e organização.
         </p>
@@ -40,7 +40,7 @@ const Hero = () => {
       </ScrollReveal>
 
       {/* HeroAnimation com controle de visibilidade */}
-      <div ref={ref} className="mt-24">
+      <div ref={ref} className="mt-20 md:mt-22">
         <HeroAnimation start={inView} />
       </div>
     </div>
